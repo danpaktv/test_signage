@@ -1,0 +1,87 @@
+@font-face {
+    font-family: Portal; /* Гарнитура шрифта */
+    src: url(./portal.ttf)
+}
+.test_cumber_0 ,.test_cumber_1{
+    height: 846px;
+    width: 326px;
+    border: 1px solid black;
+    background: white;
+    padding: 30px;
+    font-family: Portal, 'Comic Sans MS', cursive;
+}
+.test_cumber_content{
+    margin-top: 70px;
+}
+.hr_top{
+    width: 296px;
+    color: #000000 ;
+    background-color: #000000 ;
+    height: 2px ;
+    margin-left: 0;
+}
+.chumbernum{
+    position: relative;
+    height: 270px;
+}
+.chumbernum .chumbernum_00, .chumbernum_01,.chumbernum_02,.chumbernum_03,.chumbernum_04{
+    display: inline-block;
+    position: absolute;
+}
+.space{
+    height: 76px;
+    margin: 0;
+}
+.testchamber_meter{
+    height: 18px;
+    max-width: 104%;
+    width: 0%;
+    background: url(./chamber_icon/Chamber_progress.png);
+}
+.testcumber_icons{
+    margin-top: 180px;
+    width: 272px;
+}
+.testcumber_footer{
+    height: 46px;
+    margin-top: 24px;
+}
+.logo_footer{
+    width: 200px;
+}
+.test_cumber_0 .cube_dispenser,.cube_hazard,.cube_hazard,.pellet_catcher,.water_hazard,.fling_enter,.fling_exit,.turret_hazard,.dirty_water,.cake,.previous{
+    opacity: 0.5;
+}
+.test_cumber_0 .chumbernum_01{
+    opacity: 0;
+}
+.test_cumber_1 .cube_dispenser{
+    opacity: 1;
+}
+.test_cumber_1 .cube_hazard,.cube_hazard,.pellet_catcher,.water_hazard,.fling_enter,.fling_exit,.turret_hazard,.dirty_water,.cake {
+    opacity: 0.5;
+}
+.test_cumber_1 .chumbernum_00{
+    opacity: 0;
+}
+.test_cumber_1 .testchamber_meter{
+    width: 4%;
+}
+.test_cumber_1 .previous{
+    opacity: 1;
+}
+.arrows{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    position: absolute;
+    top: 65%;
+}
+.previous, .next {
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
