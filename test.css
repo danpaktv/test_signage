@@ -2,7 +2,7 @@
     font-family: Portal; /* Гарнитура шрифта */
     src: url(./portal.ttf)
 }
-.test_cumber_0 ,.test_cumber_1{
+.test_cumber{
     height: 846px;
     width: 326px;
     border: 1px solid black;
@@ -24,7 +24,10 @@
     position: relative;
     height: 270px;
 }
-.chumbernum .chumbernum_00, .chumbernum_01,.chumbernum_02,.chumbernum_03,.chumbernum_04{
+.first_number{
+    display: inline;
+}
+.chumbernum .chumbernum_00, .chumbernum_01,.chumbernum_02,.chumbernum_03,.chumbernum_04,.chumbernum_05,.chumbernum_06,.chumbernum_07,.chumbernum_08,.chumbernum_09{
     display: inline-block;
     position: absolute;
 }
@@ -48,27 +51,6 @@
 }
 .logo_footer{
     width: 200px;
-}
-.test_cumber_0 .cube_dispenser,.cube_hazard,.cube_hazard,.pellet_catcher,.water_hazard,.fling_enter,.fling_exit,.turret_hazard,.dirty_water,.cake,.previous{
-    opacity: 0.5;
-}
-.test_cumber_0 .chumbernum_01{
-    opacity: 0;
-}
-.test_cumber_1 .cube_dispenser{
-    opacity: 1;
-}
-.test_cumber_1 .cube_hazard,.cube_hazard,.pellet_catcher,.water_hazard,.fling_enter,.fling_exit,.turret_hazard,.dirty_water,.cake {
-    opacity: 0.5;
-}
-.test_cumber_1 .chumbernum_00{
-    opacity: 0;
-}
-.test_cumber_1 .testchamber_meter{
-    width: 4%;
-}
-.test_cumber_1 .previous{
-    opacity: 1;
 }
 .arrows{
     display: flex;
