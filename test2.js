@@ -39,7 +39,8 @@ function nextSlide() {
   if (b == 0){
     showSlides(testnum += 1); 
     if (testnum == 20){
-        testnum = 19
+      testnum = 19
+  }
   }
 }
 
@@ -60,7 +61,7 @@ function showSlides(testnum) {
     if (testnum == -1){
       testnum = 0
     }
-      if (testnum == 20){
+    if (testnum == 20){
       testnum = 19
     }
     if (testnum == 0){
